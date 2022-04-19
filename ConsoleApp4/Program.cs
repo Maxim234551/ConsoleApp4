@@ -67,9 +67,8 @@ namespace ConsoleApp4
                 Console.WriteLine("Введите температуру");
                 Savetemperatyra = Console.ReadLine();
 
-                Console.WriteLine("Введите направление ветра");
-                Saveveter = Console.ReadLine();
-
+                Console.WriteLine("Введите направление ветра(vostok, zapad, sorth, north");
+                Saveveter = Console.ReadLine();      
                 Console.WriteLine("Введите скорость ветра(мс)");
                 Saveskorost_vetra = Console.ReadLine();
                 IndicationsS[i] = new Indications(Savetemperatyra, Saveveter, Saveskorost_vetra);
