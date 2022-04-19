@@ -69,10 +69,6 @@ namespace ConsoleApp4
 
                 Console.WriteLine("Введите направление ветра");
                 Saveveter = Console.ReadLine();
-                while (Saveveter == vostok || Saveveter == sorth || Saveveter == north || Saveveter == zapad)
-                {
-                   
-                }
 
                 Console.WriteLine("Введите скорость ветра(мс)");
                 Saveskorost_vetra = Console.ReadLine();
